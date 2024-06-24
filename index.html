@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Make Your Chrome Bookmarks Organized as You Want in a Smarter Way | CleverBookmark</title>
+    <meta name="description" content="A Chrome extension to add, edit, remove bookmarks in a simple, concise, and more reasonable way.">
+    <meta name="keywords" content="Chrome extension, bookmarks, organize bookmarks, CleverBookmark, bookmark manager">
+    <meta name="author" content="CleverBookmark">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Make Your Chrome Bookmarks Organized as You Want in a Smarter Way | CleverBookmark"/>
+    <meta property="og:description" content="A Chrome extension to add, edit, remove bookmarks in a simple, concise, and more reasonable way."/>
+    <meta property="og:url" content="https://cleverbookmark.com/"/>
+    <meta property="og:site_name" content="CleverBookmark"/>
+    <meta property="og:image" content="https://cleverbookmark.com/resources/images/chrome-bookmarks-issues.png"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:locale" content="en_US"/>
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:title" content="Make Your Chrome Bookmarks Organized as You Want in a Smarter Way | CleverBookmark"/>
+    <meta name="twitter:description" content="A Chrome extension to add, edit, remove bookmarks in a simple, concise, and more reasonable way."/>
+    <meta name="twitter:image" content="https://cleverbookmark.com/resources/images/chrome-bookmarks-issues.png"/>
+    <meta name="twitter:site" content="@cleverbookmark"/>
+    
+    <!-- Canonical Link -->
+    <link rel="canonical" href="https://cleverbookmark.com/"/>
+    
+    <!-- Favicon and Touch Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./resources/images/icon128.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./resources/images/icon128.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./resources/images/icon128.png">
+    <link rel="manifest" href="./site.webmanifest">
+    
+    <!-- Theme Color for Mobile Browsers -->
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    
+    <!-- CSS Links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="./resources/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="mt-3 d-block d-md-flex justify-content-between">
+            <div class="justify-content-center" style="display: flex; align-items: center;">
+                <div style="line-height: 30px; font-size: 22px; margin-left: 5px; text-transform: uppercase;">
+                    <a href="./index.html"><img src="./resources/images/logo.png" width="295" height="55" alt="CleverBookmark Logo"></a>
+                </div>
+            </div>
+            <div class="text-end justify-content-center d-flex mt-3 mt-md-0" style="align-items: center;">
+                <a class="me-4" href="#why-use-cleverBookmark">Why Use CleverBookmark</a>
+                <a class="me-4" href="#how-it-works">How It Works</a>
+            </div>
+        </div>
+        <div style="margin: 20px auto;">
+            <div class="row mt-2 mt-sm-5 pt-2 pt-sm-5 mb-5 pb-5" style="align-items: center;">
+                <div class="col-12 col-lg-7 text-center text-lg-start">
+                    <h1 style="font-size: calc(1.775rem + 2vw); line-height: calc(3rem + 2vw); font-weight: 800; color: #0d6efd">
+                        Stop Adding Bookmarks Blindly and Spend Extra Time Organizing Them Later!
+                        <span class="mt-1 mt-xl-0" style="color: #EEE9DA; background: #0d6efd; padding: 5px; color:#FFFFFF">CleverBookmark</span>
+                    </h1>
+                    <p class="mt-3" style="font-size: 30px; line-height: 46px; color: #0d6efd; font-weight: 800;">
+                        lets you edit titles, choose or create folders, and pin frequently used categories in 
+                        <span style="color: #0d6efd; padding: 5px; font-size: calc(1.5rem + 2vw);">One Shot</span>.
+                    </p>
+                    <button type="button" class="btn btn-primary mt-4" style="font-size: 1.7rem; padding: 0.5rem 1rem;" onclick="window.location.href='https://chromewebstore.google.com/detail/clever-bookmark/imfopiglcflocelkladdelmdfkkjbnpe'">
+                        <span>Try it Free</span>
+                    </button>
+                </div>
+                <div class="col-12 col-lg-5 mt-5 mt-lg-0 text-center">
+                    <img src="./resources/images/chrome-bookmarks-issues.png" width="700" alt="Chrome Bookmarks Issues">
+                </div>
+            </div>
+            <div class="container">
+                <div class="mt-2 mt-sm-5 mb-5" id="why-use-cleverBookmark">
+                    <h2 style="font-weight: 800; font-size: calc(1.275rem + 2vw); text-align: center; color: #0d6efd">Why Use CleverBookmark</h2>
+                    <div class="row row-cols-1 row-cols-md-2 mt-5">
+                        <div class="col">
+                            <div style="background: #0d6efd; padding: 20px; border-radius: 12px; color: #FFFFFF;">
+                                <p style="font-weight: 600;">We Provide:</p>
+                                <p>1. The tab won't be added to bookmark until you decide to add it.</p>
+                                <p>2. The title and folder are editable the first time you open 'CleverBookmark'.</p>
+                                <p>3. Creating a new folder or selecting an existing folder are out-of-box options.</p>
+                                <p>4. Intelligent hint feature helps you locate your desired folder faster.</p>
+                                <p>5. Pin your frequently used bookmarks to add them more efficiently.</p>
+                                <p>6. Provide options to add your bookmark on the top/bottom of the folder.</p>
+                            </div>
+                        </div>
+                        <div class="col mt-2 mt-sm-0">
+                            <div style="background: #a7dcb7; padding: 20px; border-radius: 12px;">
+                                <p style="font-weight: 600;">Addressed Issues:</p>
+                                <p>1. The tab will be added to the last used folder.</p>
+                                <p>2. Title and folder can only be edited by clicking the 'edit' button.</p>
+                                <p>3. New folders can only be created by clicking the 'choose another folder' option.</p>
+                                <p>4. Existing folders can't be filtered as you type.</p>
+                                <p>5. Existing folders are not pinnable.</p>
+                                <p>6. Can't add bookmarks to the top of the folder.</p>
+                            </div>
+                        </div>
+                    </div>
+                <div class="mt-5" id="how-it-works">
+                    <h2 class="mb-4" style="font-weight: 800; font-size: calc(1.275rem + 2vw); text-align: center; color: #0d6efd;">How It Works</h2>
+                    <div class="d-flex" style="justify-content: center; margin: auto;">
+                        <video width="853" height="480" controls muted poster="./resources/images/how-it-work-video-poster.png">
+                            <source src="./resources/videos/how-it-works.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-auto mb-0">
+            <div class="container mt-5 mb-5 d-block d-sm-flex text-center text-sm-start">
+                <div class="footer-media footer-top__footer-media">
+                    <a rel="noopener" title="X" href="https://x.com/CleverBookmark">
+                        <img class="icon" src="./resources/images/x-icon.png" alt="CleverBookmark on X">
+                    </a>
+                    <a rel="noopener" title="Facebook" href="https://www.facebook.com/profile.php?id=61561265883622">
+                        <img class="icon" src="./resources/images/facebook-icon.png" alt="CleverBookmark on Facebook">
+                    </a>
+                </div>
+                <div class="me-0 ms-auto mt-3 mt-sm-0" style="align-self: center;">
+                    <a class="ms-3" href="./privacy.html">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+        <!-- Include Bootstrap JS and its dependencies if not already included -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </div>
+</body>
+</html>
+
